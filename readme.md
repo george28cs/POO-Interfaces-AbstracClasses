@@ -1,9 +1,12 @@
-## Clases e interfaces  
+# Clases e interfaces  
 En este ejemplo, se crea la clase e interface persona.  
-En la interface persona, se definen los métodos y propiedades que debe ser requeridas para generar una instancia de la interface Persona.
+En la interface persona, se definen los métodos y propiedades que debe ser requeridas para generar una instancia de la interface Persona.  
 Por defecto, las propiedades y métodos de las interfaces no pueden contener valores, únicamente definen cual será la estructura de la instancia y dicha estructura es forzoza.
-Para cada instancia creada es necesario definir los valores de las propiedades y métodos. En cambio en las interfaces (si se define por defecto el valor de una propiedad) no es necesario ingresar todos los parámetros en el constructor. Además los métodos definidos en la clase abstracta puedem ser heredados sin necesidad de reescribirlos en la clase hijo.  
+Para cada instancia creada es necesario definir los valores de las propiedades y métodos.  
 
+En cambio en las interfaces (si se define por defecto el valor de una propiedad) no es necesario ingresar todos los parámetros en el constructor. Además los métodos definidos en la clase abstracta puedem ser heredados sin necesidad de reescribirlos en la clase hijo.  
+
+## Ventajas y desventajas
 Ventajas de usar interfaces: Cuando se requiere utilizar y respetar la creación de instancias con una estructura definida se pueden utilizar interfaces.
 Desventajas: Si se utiliza para definir métodos, será necesario reescribir los métodos en cada instancia.
 
